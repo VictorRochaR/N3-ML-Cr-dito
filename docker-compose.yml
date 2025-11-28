@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  ml-engine:
+    build: ./ml-engine
+    container_name: ml_engine_container
+    ports:
+      - "5000:5000"
+    networks:
+      - risk-net
+
+  app-gateway:
+    build: ./app-gateway
+    container_name: gateway_container
+    ports:
+      - "3000:3000"
+    depends_on:
+      - ml-engine
+    environment:
+      - ML_API_URL=http://ml-engine:5000
+    networks:
+      - risk-net
+
+networks:
+  risk-net:
+    driver: bridge
