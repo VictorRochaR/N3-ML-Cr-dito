@@ -65,6 +65,8 @@ O sistema subirá dois serviços:
 
 Envie uma requisição `POST` para o Gateway (você pode usar o terminal ou Postman):
 
+- Cliente que deve ser aprovado
+
 ```bash
 curl -X POST http://localhost:3000/credit/analyze \
 -H "Content-Type: application/json" \
@@ -92,6 +94,8 @@ curl -X POST http://localhost:3000/credit/analyze \
   "risk_level": "Low"
 }
 ```
+
+- Cliente que deve ser reprovado
 
 ```bash
 curl -X POST http://localhost:3000/credit/analyze \
