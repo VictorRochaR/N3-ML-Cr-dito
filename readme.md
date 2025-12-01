@@ -102,5 +102,10 @@ curl -X POST http://localhost:3000/credit/analyze \
 
 [<img src="https://avatars.githubusercontent.com/u/128716535" width="60"/>![span](https://placehold.co/10x60/800080/800080.png)![span](https://placehold.co/220x60/000000/FFFFFF/png?text=André%20Specht)](https://andreespecht.github.io)
 
+[<img src="https://avatars.githubusercontent.com/u/135883850" width="60"/>![span](https://placehold.co/10x60/0000FF/0000FF.png)![span](https://placehold.co/220x60/000000/FFFFFF/png?text=Pablo%20Schüller)](https://pablitodogremio.github.io)
+
+[<img src="https://avatars.githubusercontent.com/u/127154329" width="60"/>![span](https://placehold.co/10x60/FFFF00/FFFF00.png)![span](https://placehold.co/220x60/000000/FFFFFF/png?text=Nicolas%20Kasteller)](https://nicolaskasteller.github.io)
+
+[<img src="https://avatars.githubusercontent.com/u/51389447" width="60"/>![span](https://placehold.co/10x60/808080/808080.png)![span](https://placehold.co/220x60/000000/FFFFFF/png?text=Gabriel%20Rocha)](https://gabrielforster.github.io)
 
 > Projeto N3 - Ciência de Dados - Católica SC
