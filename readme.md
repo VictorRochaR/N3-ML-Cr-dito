@@ -93,6 +93,34 @@ curl -X POST http://localhost:3000/credit/analyze \
 }
 ```
 
+```bash
+curl -X POST http://localhost:3000/credit/analyze \
+-H "Content-Type: application/json" \
+-d '{
+  "person_age": 25,
+  "person_income": 15000,
+  "person_emp_exp": 3,
+  "loan_amnt": 30000,
+  "loan_int_rate": 10.5,
+  "loan_percent_income": 2,
+  "cb_person_cred_hist_length": 4,
+  "credit_score": 450,
+  "person_gender": 1,
+  "previous_loan_defaults_on_file": 1,
+  "loan_intent_PERSONAL": 1,
+  "person_home_ownership_RENT": 1
+}'
+```
+
+**Resposta Esperada:**
+```json
+{
+  "approved":false,
+  "score":0.2540463964790024,
+  "risk_level":"High"
+}
+```
+
 ## Autores
 
 
