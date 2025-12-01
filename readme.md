@@ -140,4 +140,11 @@ curl -X POST http://localhost:3000/credit/analyze \
 
 [<img src="https://avatars.githubusercontent.com/u/51389447" width="60"/>![span](https://placehold.co/10x60/808080/808080.png)![span](https://placehold.co/220x60/000000/FFFFFF/png?text=Gabriel%20Rocha)](https://gabrielforster.github.io)
 
+- Victor José Brigeiro da Rocha
+- Arthur Vinicius Hassuma
+- André Gustavo Specht
+- Pablo Arman Schuller
+- Nicolas Wajima Kasteller
+- Gavriel Forster Rocha
+
 > Projeto N3 - Ciência de Dados - Católica SC
