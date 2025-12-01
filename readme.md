@@ -145,6 +145,6 @@ curl -X POST http://localhost:3000/credit/analyze \
 - André Gustavo Specht
 - Pablo Arman Schuller
 - Nicolas Wajima Kasteller
-- Gavriel Forster Rocha
+- Gabriel Forster Rocha
 
 > Projeto N3 - Ciência de Dados - Católica SC
